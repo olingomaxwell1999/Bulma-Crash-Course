@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/all.js"></script>
+
+    <style>
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: [xl-start]1fr 1.5rem [md-start]minmax(0, 624px) [md-end] 1.5rem 1fr[xl-end];
+        }
+
+        .grid * {grid-column: md;}
+
+        .grid-xl * {grid-column: xl;}
+
+        .is-paddingless-horizontal{
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .is{
+            height: 64px;
+            width: 64px;
+            object-fit: cover;
+        }
+
+        @media(max-width:672px){
+            :root{
+                font-size: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- end of Card Section -->
+    <section class="section is-paddingless-horizontal">
+        <div class="container grid">
+            <!-- start of Navigation Section -->
+            <nav class="breadcrumb" aria-label="breadcrumb">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li class="is-active">
+                        <a href="#" aria-current="page">How to build a beautiful blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- end of Navigation Section -->
+        </div>
+    </section>
+
+    <!-- start of UserHeader Section -->
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+        <div class="container grid">
+            <article class="media center">
+                <figure class="media-left">
+                    <figure class="image is-64*64">
+                        <img class="is" style="height: 70px; width: 70px; object-fit: cover; border-radius: 50%;" src="./assets/testimony1.JPG" alt="user">
+                    </figure>
+                </figure>
+
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>Olingo Maxwell</strong>
+                            <a href="#">@olingo-maxwell</a><br/>
+                            <span class="has-text-grey">Self taught, inspired to learn<br/>
+                                <time datetime="2022-09-12">Sep 12</time> . 20 min read
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- start of Title Section -->
+            <div style="padding-top: 50px;" class="is-paddingless-horizontal">
+                <h1 class="title is-2">How To Build a Responsive Website</h1>
+                <h2 class="subtitle is-3">Using Bulma Framework</h2>
+            </div>
+            <!-- end of Title Section -->
+
+            <!-- start of Title Section -->
+            <figure style="padding-top: 50px;" class="columns grid-xl is-variable is-1">
+                <div class="column">
+                    <div class="image card">
+                        <img src="./assets/banner2.JPG" alt="banner">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image card">
+                        <img src="./assets/banner3.JPG" alt="banner">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image card">
+                        <img src="./assets/banner1.JPG" alt="banner">
+                    </div>
+                </div>
+            </figure>
+
+            <figcaption class="level">
+                <small class="level-item has-text-grey">
+                    Always consult the docs. Click to continue to documentation
+                </small>
+            </figcaption>
+            <!-- end of Title Section -->
+
+            <!-- start of Title Section -->
+            <div class="content is-medium">
+                <h1>Css FlexBox</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil sequi, soluta consectetur quod excepturi aspernatur et quos, repudiandae reprehenderit laboriosam repellat minus dolores provident eaque doloribus! Sint doloremque ipsum non nemo omnis. Vel, iste repudiandae? Ullam magni neque id sunt placeat modi dolorem a, nulla consequatur necessitatibus dolores dignissimos?</p>
+
+                <br/>
+                <br/>
+
+                <h1>Css FlexBox</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil sequi, soluta consectetur quod excepturi aspernatur et quos, repudiandae reprehenderit laboriosam repellat minus dolores provident eaque doloribus! Sint doloremque ipsum non nemo omnis. Vel, iste repudiandae? Ullam magni neque id sunt placeat modi dolorem a, nulla consequatur necessitatibus dolores dignissimos?</p>
+
+                <br/>
+                <br/>
+
+                <h1>Css FlexBox</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil sequi, soluta consectetur quod excepturi aspernatur et quos, repudiandae reprehenderit laboriosam repellat minus dolores provident eaque doloribus! Sint doloremque ipsum non nemo omnis. Vel, iste repudiandae? Ullam magni neque id sunt placeat modi dolorem a, nulla consequatur necessitatibus dolores dignissimos?</p>
+
+                <br/>
+                <br/>
+
+                <h1>Css FlexBox</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil sequi, soluta consectetur quod excepturi aspernatur et quos, repudiandae reprehenderit laboriosam repellat minus dolores provident eaque doloribus! Sint doloremque ipsum non nemo omnis. Vel, iste repudiandae? Ullam magni neque id sunt placeat modi dolorem a, nulla consequatur necessitatibus dolores dignissimos?</p>
+
+                <br/>
+                <br/>
+
+
+                <h1>Css FlexBox</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil sequi, soluta consectetur quod excepturi aspernatur et quos, repudiandae reprehenderit laboriosam repellat minus dolores provident eaque doloribus! Sint doloremque ipsum non nemo omnis. Vel, iste repudiandae? Ullam magni neque id sunt placeat modi dolorem a, nulla consequatur necessitatibus dolores dignissimos?</p>
+
+                <br/>
+                <br/>
+            </div>
+            <!-- end of Title Section -->
+        </div>
+
+        <a href="./tesla.html" class="button-primary">Proceed to tesla homepage</a>
+    </section>
+    <!-- end of UserHeader Section -->
+
+    <!-- end of Blog Section -->
+</body>
+</html>

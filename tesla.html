@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Page</title>
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="stylesheet" href="./css/helper.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <script defer src="./js/all.js"></script>
+
+    <style>
+        .hero{
+            background: black url(./assets/banner1.JPG);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @media(max-width:1000px){
+            .hero{
+                background: black url(./assets/banner2.JPG);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        @media(max-width:768px){
+            .hero{
+                background: black url(./assets/banner3.JPG);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- start of Hero Section -->
+    <section class="hero is-fullheight">
+        <!-- start of Navigation Section -->
+        <div class="hero-head">
+            <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+                <div class="column left">
+                    <figure class="navbar-item image">
+                        <img style="height:1.5rem;" src="./assets/logo-sbize.png" alt="Tesla Logo">
+                    </figure>
+                </div>
+                <div class="column center desktop">
+                    <p class="navbar-item">model S</p>
+                    <p class="navbar-item">model X</p>
+                    <p class="navbar-item">model 5</p>
+                    <p class="navbar-item">Roadster</p>
+                    <p class="navbar-item">energy</p>
+                </div>
+                <div class="column right">
+                    <p class="navbar-item desktop">shop</p>
+                    <p class="navbar-item desktop">sign in</p>
+                    <figure class="navbar-item image">
+                        <p>
+                            <i class="fas fa-bars"></i>
+                        </p>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- End of Navigation Section -->
+
+        <!-- Start of Header Section -->
+        <div class="hero-body">
+            <div class="is-overlay has-text-centered single-spaced" style="top: 82px;">
+                <h1 class="subtitle is-4 has-text-white has-text-weight-light">Tesla</h1>
+                <h2 class="title is-1 has-text-white">Roadster</h2>
+            </div>
+        </div>
+        <!-- end of Header Section -->
+
+        <!-- Start of Footer Section -->
+        <main class="hero-body center">
+            <div id="grid" style="width: 768px;">
+
+                <div id="a" class="center-column">
+                    <p class="has-text-centered has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, consequuntur!</p>
+                </div>
+
+                <div id="b" class="center-column">
+                    <p class="title has-text-white">
+                        <i class="fas fa-tachometer-alt has-text-grey-light" style="width: 0.75em; height:0.75em;"></i>
+                        1.9
+                        <span class="is-size-5">s</span>
+                    </p>
+
+                    <p class="subtitle has-text-white is-7">0 - 00 mph</p>
+                </div>
+
+                <div id="c" class="center-column" style="border-left: 1px solid gray;">
+                    <p class="title has-text-white">
+                        <span class="is-size-5">+</span>
+                        250
+                        <span class="is-size-5">mph</span>
+                        <p class="subtitle is-7 has-text-white">Top Speed</p>
+                    </p>
+                </div>
+
+                <div id="d" class="center-column" style="border-left: 1px solid gray;">
+                    <p class="title has-text-white">
+                        820
+                        <span class="is-size-5">mi</span>
+                    </p>
+
+                    <p class="subtitle is-7 has-text-white">Mile Range</p>
+                </div>
+
+                <div id="e" class="center-column">
+                    <a href="" class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold" style="width: 100%; border: 0.15em solid white;">Reserve Now</a>
+                </div>
+
+            </div>
+        </main>
+        <!-- end of Footer Section -->
+    </section>
+    <!-- end of Hero Section -->
+</body>
+</html>

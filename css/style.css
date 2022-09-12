@@ -1,0 +1,25 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: [xl-start]1fr 1.5rem [md-start]minmax(0, 624px) [md-end] 1.5rem 1fr[xl-end];
+}
+
+.grid * {grid-column: md;}
+
+.grid-xl * {grid-column: xl;}
+
+.is-paddingless-horizontal{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.is{
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+}
